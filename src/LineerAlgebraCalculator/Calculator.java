@@ -2,9 +2,9 @@ package LineerAlgebraCalculator;
 
 public interface Calculator {
 	
-	public int[][] doCalculationOneArg(String functionName);
+	public void doCalculationOneArg(String functionName);
 	
-	public int[][] doCalculationTwoArg(String functionName);
+	public void doCalculationTwoArg(String functionName);
 	
 	public void addFunction(MatrixFunction function);
 	
